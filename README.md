@@ -82,4 +82,5 @@ Indicates the parameters to set to the argument `--diff-filter` of git diff.
 
 ## Inspired by
 https://github.com/Causata/grunt-git-changedfiles
+
 https://github.com/Ideame/grunt-git-ref-changed-files
