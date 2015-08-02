@@ -1,10 +1,11 @@
 {
   "name": "grunt-git-modified-files",
   "version": "0.0.1",
+  "main": "tasks/modifiedfiles.js",
   "description": "Grunt task to generate a list of the files that have modified since the last commit.",
   "repository": {
     "type": "git",
-    "url": "git@github.com:Lukinos/grunt-git-modified-files.git"
+    "url": "git+ssh://git@github.com/Lukinos/grunt-git-modified-files.git"
   },
   "bugs": {
     "url": "https://github.com/Lukinos/grunt-git-modified-files/issues"
@@ -19,11 +20,19 @@
     "node": ">= 0.8.0"
   },
   "author": "",
-  "license": "BSD",
-  "readmeFilename": "README.md",
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-jshint": "~0.4.3",
     "lodash": "^3.10.0"
-  }
+  },
+  "homepage": "https://github.com/Lukinos/grunt-git-modified-files#readme",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.4.3",
+    "lodash": "^3.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT"
 }
