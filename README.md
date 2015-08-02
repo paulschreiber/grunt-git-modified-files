@@ -60,13 +60,13 @@ You can retrieve the list of modified files like this:
 
     grunt.config.get('gmf.all')
 
-Or using the grunt shortcut <%= gmf.all %>
+Or using the grunt shortcut `<%= gmf.all %>`
 
 You can retrieve the list of modified files filtered by the regexp like this:
 
     grunt.config.get('gmf.filtered')
 
-Or using the grunt shortcut <%= gmf.filtered %>
+Or using the grunt shortcut `<%= gmf.filtered %>`
 
 ### Options
 
