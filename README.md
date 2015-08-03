@@ -43,8 +43,8 @@ module.exports = function(grunt) {
     grunt.initConfig({
         git_modified_files : {
             options: {
-                diffFiltered: 'AMC' // optional: default is 'AMC',
-                regexp: /\.js$/, // optional: default is /.*/
+                diffFiltered: 'AMC', // optional: default is 'AMC',
+                regexp: /\.js$/ // optional: default is /.*/
             }
         }
     });
