@@ -1,5 +1,5 @@
 # grunt-git-modified-files
-> Grunt plugin to generate a list of the files that have modified in your Git working tree.
+> Grunt plugin to generate the list of the files which have been modified in your Git working tree.
 
 ## Getting Started
 _If you haven't used [grunt][] before, be sure to check out the [Getting Started][] guide._
@@ -10,7 +10,7 @@ From the same directory as your project's [Gruntfile][Getting Started] and [pack
 npm install grunt-git-modified-files --save-dev
 ```
 
-Once that's done, add this line to your project's Gruntfile:
+Once done, add this line to your project's Gruntfile:
 
 ```js
 grunt.loadNpmTasks('grunt-git-modified-files');
