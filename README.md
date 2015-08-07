@@ -19,8 +19,8 @@ grunt.loadNpmTasks('grunt-git-modified-files');
 The plugin should be listed in package.json as a `devDependency`, which ensures that it will be installed whenever the `npm install` command is run.
 
 [grunt]: http://gruntjs.com/
-[Getting Started]: https://github.com/gruntjs/grunt/blob/devel/docs/getting_started.md
-[package.json]: https://npmjs.org/doc/json.html
+[Getting Started]: http://gruntjs.com/getting-started
+[package.json]: https://docs.npmjs.com/files/package.json
 
 ## How it works
 
