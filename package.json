@@ -1,19 +1,19 @@
 {
   "name": "grunt-git-modified-files",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "tasks/modifiedfiles.js",
   "description": "Grunt task to generate a list of the files that have modified since the last commit.",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/Lukinos/grunt-git-modified-files.git"
+    "url": "git+ssh://git@github.com/Lukinoh/grunt-git-modified-files.git"
   },
   "bugs": {
-    "url": "https://github.com/Lukinos/grunt-git-modified-files/issues"
+    "url": "https://github.com/Lukinoh/grunt-git-modified-files/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/Lukinos/grunt-git-modified-files/blob/master/LICENSE"
+      "url": "https://github.com/Lukinoh/grunt-git-modified-files/blob/master/LICENSE"
     }
   ],
   "engines": {
@@ -25,7 +25,7 @@
     "grunt": "~0.4.1",
     "lodash": "^3.10.0"
   },
-  "homepage": "https://github.com/Lukinos/grunt-git-modified-files#readme",
+  "homepage": "https://github.com/Lukinoh/grunt-git-modified-files#readme",
   "devDependencies": {
     "grunt-contrib-jshint": "~0.4.3"
   },
