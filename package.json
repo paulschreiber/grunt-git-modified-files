@@ -1,6 +1,6 @@
 {
   "name": "grunt-git-modified-files",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "tasks/modifiedfiles.js",
   "description": "Grunt task to generate a list of the files that have modified since the last commit.",
   "repository": {
@@ -22,12 +22,12 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "grunt": "~0.4.1",
-    "lodash": "^3.10.0"
+    "grunt": "^1.0.3",
+    "lodash": "^4.17.5"
   },
   "homepage": "https://github.com/Lukinoh/grunt-git-modified-files#readme",
   "devDependencies": {
-    "grunt-contrib-jshint": "~0.4.3"
+    "grunt-contrib-jshint": "^0.11.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
